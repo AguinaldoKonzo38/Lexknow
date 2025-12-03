@@ -1,0 +1,113 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section {
+    padding: 0rem 2rem;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    width: 100vw;
+    border-bottom: 1px solid var(--color5);
+    background-color: var(--color1);
+}
+
+header .navegacao-cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.1rem;
+    padding: 1rem 2rem;
+}
+
+header .navegacao-cabecalho .navegacao-botao {
+    transition: all 0.3s linear;
+    background-color: transparent;
+    /* border-color: ; */
+    /* color: ; */
+    border: none;
+    font-size: 1.5rem;
+}
+
+header .navegacao-cabecalho .navegacao-botao:hover {
+    transform: rotate(90deg);
+}
+
+a {
+    text-decoration: none;
+}
+
+
+header .navegacao-container .navegacao-links {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+header .navegacao-container .navegacao-links a {
+    transition: all 0.3s linear;
+    font-size: 1.2rem;
+    padding: 0.4rem 0;
+}
+
+header .navegacao-container .navegacao-links a:hover {
+    padding-left: 1.5rem;
+}
+
+.navegacao-links {
+    height: 0;
+    overflow: hidden;
+    transition: all 0.3s linear;
+}
+
+.mostrar-link {
+    height: 10rem;
+}
+
+body .caixa-principal {
+    background-color: var(--color4);
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+    background: url("../juiz-13-03-2024-65ef3b86e725c.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    padding-top: 3rem;
+}
+
+body .caixa-principal section{
+    background-color: rgba(41, 41, 41, 0.411);
+    border-radius: 1rem;
+}
+
+body .caixa-principal section h1 {
+    color: var(--color1);
+    font-size: 2rem;
+    margin-bottom: 3rem;
+    text-align: center;
+    font-size: 2rem;
+}
+
+body .caixa-principal section p {
+    color: var(--color2);
+    font-size: 1.2rem;
+    width: 300px;
+    margin: auto;
+    text-align: center;
+    line-height: 1.5rem;
+    font-size: 1.3rem;
+}
