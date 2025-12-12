@@ -20,7 +20,7 @@ header {
     z-index: 2;
     width: 100vw;
     border-bottom: 1px solid var(--color5);
-    background-color: var(--color1);
+    background-color: var(--c);
 }
 
 header .navegacao-cabecalho {
@@ -64,6 +64,7 @@ header .navegacao-container .navegacao-links a {
 
 header .navegacao-container .navegacao-links a:hover {
     padding-left: 1.5rem;
+    background-color: var(--color8);
 }
 
 .navegacao-links {
@@ -73,7 +74,7 @@ header .navegacao-container .navegacao-links a:hover {
 }
 
 .mostrar-link {
-    height: 10rem;
+    height: 12rem;
 }
 
 body .caixa-principal {
@@ -82,7 +83,7 @@ body .caixa-principal {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url("../assets/files/martelo.jpg");
+    background: url("../files/martelo.jpg");
     background-attachment: fixed;
     padding-top: 3rem;
 }
@@ -230,6 +231,14 @@ footer .footer-direitos p{
     font-size: 0.9rem;
 }
 
+footer .footer-direitos p a{
+    color: var(--color7);
+    transition: all 0.3s linear;
+}
+
+footer .footer-direitos p a:hover{
+    text-decoration: underline;
+}
 
 
 
