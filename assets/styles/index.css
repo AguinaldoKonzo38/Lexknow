@@ -1,245 +1,240 @@
 @charset "UTF-8";
 
 * {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 section {
-    padding: 0rem 2rem;
-    margin: 0 auto;
-    max-width: 1200px;
+  padding: 0rem 2rem;
+  margin: 0 auto;
+  max-width: 1200px;
 }
 
 header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 2;
-    width: 100vw;
-    border-bottom: 1px solid var(--color5);
-    background-color: var(--c);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  width: 100vw;
+  border-bottom: 1px solid var(--color5);
+  background-color: var(--c);
 }
 
 header .navegacao-cabecalho {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    font-size: 1.1rem;
-    padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.1rem;
+  padding: 1rem 2rem;
 }
 
 header .navegacao-cabecalho .navegacao-botao {
-    transition: all 0.3s linear;
-    background-color: transparent;
-    /* border-color: ; */
-    /* color: ; */
-    border: none;
-    font-size: 1.5rem;
+  transition: all 0.3s linear;
+  background-color: transparent;
+  /* border-color: ; */
+  /* color: ; */
+  border: none;
+  font-size: 1.5rem;
 }
 
 header .navegacao-cabecalho .navegacao-botao:hover {
-    transform: rotate(90deg);
+  transform: rotate(90deg);
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
-
 header .navegacao-container .navegacao-links {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
 
 header .navegacao-container .navegacao-links a {
-    transition: all 0.3s linear;
-    font-size: 1.2rem;
-    padding: 0.4rem 0;
-    color: var(--color4);
+  transition: all 0.3s linear;
+  font-size: 1.2rem;
+  padding: 0.4rem 0;
+  color: var(--color4);
 }
 
 header .navegacao-container .navegacao-links a:hover {
-    padding-left: 1.5rem;
-    background-color: var(--color8);
+  padding-left: 1.5rem;
+  background-color: var(--color8);
 }
 
 .navegacao-links {
-    height: 0;
-    overflow: hidden;
-    transition: all 0.3s linear;
+  height: 0;
+  overflow: hidden;
+  transition: all 0.3s linear;
 }
 
 .mostrar-link {
-    height: 12rem;
+  height: 12rem;
 }
 
 body .caixa-principal {
-    background-color: var(--color4);
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: url("../files/martelo.jpg");
-    background-attachment: fixed;
-    padding-top: 3rem;
+  background-color: var(--color4);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url("../files/martelo.jpg");
+  background-attachment: fixed;
+  padding-top: 3rem;
 }
 
 body .caixa-principal section h1 {
-    color: var(--color1);
-    font-size: 1rem;
-    margin-bottom: 3rem;
-    text-align: center;
-    font-size: 2rem;
+  color: var(--color1);
+  font-size: 1rem;
+  margin-bottom: 3rem;
+  text-align: center;
+  font-size: 2rem;
 }
 
 body .caixa-principal section p {
-    color: var(--color2);
-    font-size: 1.2rem;
-    width: 300px;
-    margin: auto;
-    text-align: center;
-    line-height: 1.5rem;
+  color: var(--color2);
+  font-size: 1.2rem;
+  width: 300px;
+  margin: auto;
+  text-align: center;
+  line-height: 1.5rem;
 }
 
-body .caixa-secundaria{
-    background-color: var(--color4);
-    display: flex;
-    flex-direction: column;
-    gap: 3rem;
-    padding: 1rem;
+body .caixa-secundaria {
+  background-color: var(--color4);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 3rem;
+  padding: 1rem;
+  height: 400px;
 }
 
-body .caixa-secundaria section{
-    color: var(--color1);
+body .caixa-secundaria section {
+  color: var(--color1);
 }
 
-body .caixa-secundaria section p{
-    font-size: 1.2rem;
-    font-weight: 600;
-    text-align: center;
+body .caixa-secundaria section p {
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-align: center;
 }
 
-body .caixa-secundaria section .t{
-    font-weight: 100;
-    font-size: 0.9rem;
+body .caixa-secundaria section .t {
+  font-weight: 100;
+  font-size: 0.9rem;
 }
 
-body .caixa-leis{
-    height: 12rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+body .caixa-leis {
+  height: 12rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-
-
 
 /* ----------------------------------------------- */
 
-footer{
-    background-color: var(--color4);
-    color: var(--color1);
-    display: flex;
-    flex-direction: column;
-    gap: 1.5rem;
+footer {
+  background-color: var(--color4);
+  color: var(--color1);
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
 }
 
-footer .footer-informacoes{
-    display: flex;
-    gap: 2rem;
-    flex-direction: column;
-    justify-content: center;
-    padding: 1rem;
+footer .footer-informacoes {
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem;
 }
 
-footer .footer-informacoes .footer-contatos{
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
+footer .footer-informacoes .footer-contatos {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
 
-footer .footer-informacoes .footer-contatos div{
-    font-size: 1.2rem;
+footer .footer-informacoes .footer-contatos div {
+  font-size: 1.2rem;
 }
 
-footer .footer-mensagem{
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
+footer .footer-mensagem {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
 
-footer .footer-mensagem div{
-    display: flex;
-    flex-direction: column;
-    gap: 0.8rem;
+footer .footer-mensagem div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
 }
 
-footer .footer-mensagem div input{
-    padding: 0.5rem;
-    border-radius: 0.5rem;
-    border: none;
-    font-size: 12px;
+footer .footer-mensagem div input {
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  border: none;
+  font-size: 12px;
 }
 
-footer .footer-mensagem div #footer-mensagem-input{
-    width: 250px;
-    height: 3.5rem;
-    margin: 0 auto;
+footer .footer-mensagem div #footer-mensagem-input {
+  width: 250px;
+  height: 3.5rem;
+  margin: 0 auto;
 }
 
-footer .footer-mensagem div button{
-    margin-top: 0.5rem;
-    padding: 0.5rem;
-    border-radius: 0.5rem;
-    border: none;
-    background-color: var(--color5);
-    color: var(--color1);
-    font-size: 1rem;
-    cursor: pointer;
+footer .footer-mensagem div button {
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  border: none;
+  background-color: var(--color5);
+  color: var(--color1);
+  font-size: 1rem;
+  cursor: pointer;
 }
 
-footer .footer-legislacao{
-    padding-bottom: 1rem;
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
+footer .footer-legislacao {
+  padding-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
 
-footer .footer-legislacao a{
-    color: var(--color1);
-    font-size: 1rem;
-    transition: all 0.3s linear;
+footer .footer-legislacao a {
+  color: var(--color1);
+  font-size: 1rem;
+  transition: all 0.3s linear;
 }
 
-footer .footer-legislacao a:hover{
-    border-bottom: 1px solid var(--color1);
+footer .footer-legislacao a:hover {
+  border-bottom: 1px solid var(--color1);
 }
 
-footer .footer-direitos{
-    border-top: 1px solid var(--color2);
-    padding-bottom: 2rem;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
+footer .footer-direitos {
+  border-top: 1px solid var(--color2);
+  padding-bottom: 2rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
 }
 
-footer .footer-direitos p{
-    padding-top: 0.8rem;
-    font-size: 0.9rem;
+footer .footer-direitos p {
+  padding-top: 0.8rem;
+  font-size: 0.9rem;
 }
 
-footer .footer-direitos p a{
-    color: var(--color7);
-    transition: all 0.3s linear;
+footer .footer-direitos p a {
+  color: var(--color7);
+  transition: all 0.3s linear;
 }
 
-footer .footer-direitos p a:hover{
-    text-decoration: underline;
+footer .footer-direitos p a:hover {
+  text-decoration: underline;
 }
-
-
-
-
