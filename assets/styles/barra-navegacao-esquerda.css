@@ -1,0 +1,30 @@
+body main .barra-navegacao-esquerda{
+    max-width: 300px;
+    height: 94.8vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+
+body main .barra-navegacao-esquerda .navegacao-main{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+body main .barra-navegacao-esquerda .navegacao-main .logo{
+    text-align: center;
+    padding: 1rem 0;
+}
+
+body main .barra-navegacao-esquerda .navegacao-main .navegacao-links{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding-left: 1.5rem;
+}
+
+body main .barra-navegacao-esquerda .navegacao-logout{
+    padding-left: 1.5rem;
+}
