@@ -1,6 +1,5 @@
 <?php
 //conexao com o banco de dados
-
 $host = "localhost";
 $db = "LexKnow_DB";
 $userName = "root";
@@ -47,16 +46,4 @@ if($cmd->rowCount() != 0) {
             "message" => "Informações nao encontradas"
         ]);
 }
-
-
-// $usuario = $cmd->fetch(PDO::FETCH_ASSOC);
-// if($usuario['email'] && password_verify($senha, $usuario['senha'])) {
-//     echo json_encode(["success" => true]);
-// } else {
-//     echo json_encode([
-//         "success" => false, 
-//         "message" => "Email ou senha incorretos"
-//     ]);
-// }
-
 ?>
