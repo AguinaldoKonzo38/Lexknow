@@ -1,0 +1,13 @@
+.header{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.header h1{
+    color: var(--color4);
+}
+
+.header p{
+    color: var(--3);
+}

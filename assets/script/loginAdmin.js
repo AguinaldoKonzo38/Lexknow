@@ -26,12 +26,25 @@ async function enviarDados() {
                 position: "right", // `left`, `center` or `right`
                 stopOnFocus: true, // Prevents dismissing of toast on hover
                 style: {
-                     background: "#e74c3c",
+                    background: "#e74c3c",
                 },
             }).showToast();
 
         }
     } catch (Exception) {
+        Toastify({
+            text: "Aconteceu um erro genérico, para mais informações abra o console.",
+            duration: 3000,
+            // destination: "https://github.com/apvarun/toastify-js",
+            newWindow: true,
+            close: true,
+            gravity: "top", // `top` or `bottom`
+            position: "right", // `left`, `center` or `right`
+            stopOnFocus: true, // Prevents dismissing of toast on hover
+            style: {
+                background: "#e74c3c",
+            },
+        }).showToast();
         console.log("Aconteceu um erro genérico: ", Exception)
     }
 }

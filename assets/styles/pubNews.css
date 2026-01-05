@@ -1,0 +1,192 @@
+body {
+    height: 100vh;
+    background-color: var(--color2);
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background-color: var(--color1);
+}
+
+form {
+    padding: 10px;
+    border-radius: 8px;
+    width: 270px;
+    margin-top: 1rem;
+}
+
+form>h2 {
+    padding-bottom: 1rem;
+}
+
+form .first-box-inputs {
+    display: flex;
+    flex-direction: column;
+}
+
+form .campo {
+    display: flex;
+    flex-direction: column;
+    gap: 06px;
+    margin: 8px;
+}
+
+.f {
+    padding-top: 9px;
+}
+
+form .required {
+    color: var(--color4);
+}
+
+form label {
+    font-size: 14px;
+}
+
+form .campo input {
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 6px;
+    border: 1px solid hsl(148, 38%, 91%);
+    outline-color: var(--color4);
+}
+
+form .campo textarea {
+    height: 100px;
+    padding: 9px;
+    font-size: 16px;
+    border-radius: 6px;
+    border: 1px solid hsl(148, 38%, 91%);
+    outline-color: var(--color4);
+    resize: none;
+}
+
+form .btn-enviar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    gap: 1rem;
+}
+
+Form .btn-enviar #close_modal{
+    text-decoration: none;
+    color: var(--color4);
+
+}
+
+form .submit {
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--color4);
+    color: var(--color2);
+    font-weight: 700;
+    width: 250px;
+    transition: all 1s linear;
+}
+
+form .submit:active {
+    cursor: pointer;
+    transform: scale(1.01, 1.01);
+}
+
+
+/* Aplicando media queries */
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+
+    form {
+        padding: 10px;
+        border-radius: 8px;
+        width: 600px;
+        margin-top: 10ch;
+    }
+
+    form .first-box-inputs {
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+    }
+
+    form .first-box-inputs .campo input {
+        width: 260px;
+    }
+
+    form .submit {
+        padding: 15px;
+        border: none;
+        border-radius: 5px;
+        background-color: var(--color4);
+        color: var(--color2);
+        font-weight: 700;
+        width: 589px;
+        transition: all 1s linear;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px){
+
+    form {
+        padding: 10px;
+        border-radius: 8px;
+        width: 600px;
+        margin-top: 10ch;
+    }
+
+    form .first-box-inputs {
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+    }
+
+    form .first-box-inputs .campo input {
+        width: 260px;
+    }
+
+    form .submit {
+        padding: 15px;
+        border: none;
+        border-radius: 5px;
+        background-color: var(--color4);
+        color: var(--color2);
+        font-weight: 700;
+        width: 589px;
+        transition: all 1s linear;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    
+    form {
+        padding: 10px;
+        border-radius: 8px;
+        width: 600px;
+        margin-top: 1rem;
+    }
+
+    form .first-box-inputs {
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+    }
+
+    form .first-box-inputs .campo input {
+        width: 260px;
+    }
+
+    form .submit {
+        padding: 15px;
+        border: none;
+        border-radius: 5px;
+        background-color: var(--color4);
+        color: var(--color2);
+        font-weight: 700;
+        width: 589px;
+        transition: all 1s linear;
+    }
+}
